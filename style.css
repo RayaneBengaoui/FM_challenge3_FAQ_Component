@@ -1,7 +1,11 @@
-body {
+html {
+  font-size: 62.5%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   min-height: 100vh;
 
   background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
@@ -10,12 +14,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 main {
   background-color: white;
-  width: 65%;
-  height: 37rem;
+  /* width: 65%; */
+  width: 125rem;
+  height: 60rem;
   border-radius: 1rem;
   box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
   display: flex;
@@ -39,12 +45,26 @@ main {
 
 #bg-img {
   position: absolute;
+  width: 160%;
+  height: 160%;
+  left: -75%;
+  top: -25rem;
 }
+
 #woman-img {
   position: absolute;
+
+  width: 95%;
+
+  top: 10%;
+  left: -15%;
 }
+
 #box-img {
   position: absolute;
+  width: 35%;
+  left: -17%;
+  top: 37%;
 }
 
 .attribution {
