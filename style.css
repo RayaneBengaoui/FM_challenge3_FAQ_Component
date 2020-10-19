@@ -75,3 +75,47 @@ main {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+.separation {
+  border-top: 1px solid hsl(240, 5%, 91%);
+  width: 75%;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  color: hsl(240, 6%, 50%);
+  font-weight: 400;
+}
+
+h3 {
+  color: hsl(240, 6%, 50%);
+  font-weight: 400;
+  font-size: 1.3rem;
+
+  line-height: 1.9rem;
+}
+
+.question {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.answer {
+  width: 75%;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.flip {
+  transform: rotate(180deg);
+}
