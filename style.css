@@ -114,6 +114,7 @@ h3 {
 
 .active {
   display: block;
+  animation: 1s;
 }
 
 .flip {

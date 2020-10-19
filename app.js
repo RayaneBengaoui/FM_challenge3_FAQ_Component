@@ -3,8 +3,10 @@ questions = document.querySelectorAll(".question-container");
 questions.forEach((question) => {
   question.addEventListener("click", () => {
     questions.forEach((q) => {
-      q.children[1].classList.remove("active");
-      q.children[0].children[1].classList.remove("flip");
+      if (q.children[1].classList.contains("active") && question != q) {
+        q.children[1].classList.remove("active");
+        q.children[0].children[1].classList.remove("flip");
+      }
     });
 
     question.children[1].classList.toggle("active");
