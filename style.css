@@ -79,6 +79,7 @@ main {
 .separation {
   border-top: 1px solid hsl(240, 5%, 91%);
   width: 75%;
+  margin: 1.5rem 0rem;
 }
 
 h1 {
@@ -89,7 +90,7 @@ h1 {
 
 h2 {
   color: hsl(240, 6%, 50%);
-  font-weight: 400;
+  font-weight: 700;
 }
 
 h3 {
@@ -105,6 +106,11 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
+}
+
+.question:hover h2 {
+  color: hsl(14, 88%, 65%);
 }
 
 .answer {
@@ -114,9 +120,12 @@ h3 {
 
 .active {
   display: block;
-  animation: 1s;
 }
 
 .flip {
   transform: rotate(180deg);
+}
+
+.color {
+  color: hsl(238, 29%, 16%);
 }
