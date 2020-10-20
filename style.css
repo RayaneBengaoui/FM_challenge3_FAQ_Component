@@ -113,6 +113,10 @@ h3 {
   color: hsl(14, 88%, 65%);
 }
 
+.question img {
+  transition: transform 0.4s ease-in-out;
+}
+
 .answer {
   width: 75%;
   display: none;
@@ -123,9 +127,9 @@ h3 {
 }
 
 .flip {
-  transform: rotate(180deg);
+  transform: rotate(-180deg);
 }
 
-.color {
+.flip-back .color {
   color: hsl(238, 29%, 16%);
 }
